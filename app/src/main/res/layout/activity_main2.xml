@@ -8,9 +8,17 @@
     android:padding="50dp"
     tools:context="developers.com.br.exampleviacep.Main2Activity">
 
-    <EditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="CEP:"/>
+    <EditText
+        android:id="@+id/edtCep"
+        android:text="31840180"
+             android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
         android:hint="Digite o cep"/>
 
     <Button
